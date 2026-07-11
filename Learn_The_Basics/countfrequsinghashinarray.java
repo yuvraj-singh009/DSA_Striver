@@ -1,0 +1,17 @@
+package Learn_The_Basics;
+
+public class countfrequsinghashinarray {
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5, 1, 2, 3, 1};
+        int n = arr.length;
+        int[] hash = new int[100]; // Assuming the maximum value in the array is less than 100
+        for(int i=0; i<n; i++){
+            hash[arr[i]]++;
+        }
+        for(int i=0; i<hash.length; i++){
+            if(hash[i] > 0){
+                System.out.println(i + " occurs " + hash[i] + " times");
+            }
+        }
+    }
+}
