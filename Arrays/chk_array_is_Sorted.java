@@ -13,7 +13,7 @@ public class chk_array_is_Sorted {
         if(isSorted){
             System.out.println("The array is sorted in ascending order.");
         } else {
-            System.out.println("The array is not sorted in ascending order.");
+            System.out.println("The array is not sorted in ascending order....");
         }
     }
 }
