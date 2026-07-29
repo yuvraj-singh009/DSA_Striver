@@ -36,7 +36,8 @@ public class sec_large_Elem_in_array {
         if(secondLargest == Integer.MIN_VALUE){
             System.out.println("There is no second largest element in the array.");
         } else {
-            System.out.println("Second largest element in the array is: " + secondLargest);
+            System.out.println("Second largest element in the array Is: " + secondLargest);
+            // #
         }
     }
 }
