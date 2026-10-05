@@ -12,6 +12,6 @@ public class reverseWords {
         sb.append(ch);
     }
     sb.reverse();
-    System.out.println(sb);
+    System.out.println(Arrays.toString(sb.toString().toCharArray()));
 }
 }
